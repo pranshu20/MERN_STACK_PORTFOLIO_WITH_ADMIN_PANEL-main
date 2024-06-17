@@ -85,7 +85,7 @@ const ProjectView = () => {
                 <div className="w-full sm:col-span-4">
                   <p className="text-3xl font-bold mb-2">Technologies:</p>
                   {technologiesList.map((item, index) => (
-                    <p className="mb-3">{item}</p>
+                    <p>{item}</p>
                   ))}
                 </div>
                 <div className="w-full sm:col-span-4">
